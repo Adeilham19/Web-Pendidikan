@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+
+.bg-img{
+    background-image: url("../img/BG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section h3 {
+	padding-bottom: 20px;
+	text-align: center;
+	margin:20px;
+	position: relative;
+}
+section h3::before {
+	content:'';
+	display: block;
+	position: absolute;
+	bottom: 0;
+	width:120px;
+	height:1px;
+	background-color: #ddd;
+	left: calc(50% - 60px);
+}
+section h3::after {
+	content:'';
+	display: block;
+	position: absolute;
+	bottom: -1px;
+	width:40px;
+	height:4px;
+	background-color: #6A75FF;
+	left: calc(50% - 20px);
+}
+.text-mycolor{
+    color: #6A75FF;
+}
+.bg-mycolor{
+	background-color: #6A75FF;
+}
+.bg-mycolor2{
+	background-color: #3E468F;
+}
+.f-myfont1{
+	font-family: 'Poppins', sans-serif;
+}
+.f-myfont2{
+	font-family: 'Open Sans', sans-serif;
+}
+.trans:hover{
+	transform: scale(1.1);
+}
+.trans2:hover{
+	transform: scale(1.2);
+}
+.mycolor:hover{
+	background-color: #6A75FF;
+}
+html {
+	scroll-behavior: smooth;
+}
+
+
+
+
